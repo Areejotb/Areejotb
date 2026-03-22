@@ -1,0 +1,24 @@
+# 🧠 Mental Health and Digital Behavior Analysis
+
+This project analyzes the relationship between digital habits and mental wellbeing using a dataset of 525 entries (2020-2024).
+
+## 🔍 Data Overview & Understanding
+Based on the initial data exploration (`df.info()` and `df.describe()`):
+* **Dataset Shape:** 525 rows and 9 columns.
+* **Average Daily Screen Time:** 372.26 minutes.
+* **Average Sleep Hours:** 6.79 hours.
+* **Average Anxiety Level:** 8.83/10.
+* **Average Notification Count:** 84.52 daily.
+
+## 🛠️ Technical Implementation
+The project follows a structured data analysis workflow:
+1. **Data Import:** Loading `mental_health_digital_behavior_data.csv` using Pandas.
+2. **Library Stack:** Using `pandas`, `numpy`, `seaborn`, and `matplotlib.pyplot`.
+3. **Data Auditing:**
+   * Checking for null values (e.g., `daily_screen_time_min` has 497 non-null entries).
+   * Analyzing unique values for columns like `sleep_hours` and `anxiety_level`.
+   * Statistical summary using `df.describe()` to identify means and standard deviations.
+
+## 💻 Environment
+* **Platform:** Google Colab.
+* **Libraries:** Pandas for manipulation, Seaborn/Matplotlib for potential visualization.
