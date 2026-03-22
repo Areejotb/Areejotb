@@ -1,0 +1,23 @@
+# 📈 Tech Stocks Analysis - Basira Team
+
+This project focuses on analyzing historical stock data for **Google** and **Yahoo** using Python. The goal is to extract market insights and compare price performance trends.
+
+## 👥 Team Members:
+* Noura Abuthnain
+* Areej Alotaibi
+* Yleen Alshalub
+* Deema Alquwaei
+
+## 🔍 Project Scope & Objectives:
+* Analyze stock price trends for Google and Yahoo.
+* Compare performance between both companies during specific timeframes.
+* Visualize market fluctuations using data visualization libraries.
+
+## 🛠️ Tech Stack:
+* **Python:** Core language for analysis.
+* **Pandas:** For data manipulation and cleaning.
+* **Matplotlib & Seaborn:** For generating stock charts and visuals.
+* **Google Colab:** The environment used for execution.
+
+---
+*Developed as part of the **NewTech Hackathon** by Basira Team.*
